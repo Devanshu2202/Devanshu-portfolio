@@ -1,0 +1,180 @@
+{
+  "publication": {
+    "name": "The Frontend",
+    "volume": "Vol. 1 — Elite Edition",
+    "price": "CONFIDENTIAL TALENT DOSSIER",
+    "edition": "High-Impact Developer Release"
+  },
+  "personal_info": {
+    "name": "Devanshu Mishra",
+    "title": "Frontend Developer (React Specialist)",
+    "availability": "Actively Interviewing",
+    "location": "Ahmedabad, India",
+    "timezone": "IST (UTC+5:30)",
+    "authorization": "Authorized to work in India / Open to Remote",
+    "tagline": "I build fast, resilient UIs that don’t break under real-world pressure.",
+    "resume_link": "/resume.pdf"
+  },
+  "summary": {
+    "headline": "🚨 FRONTEND ENGINEER WITH QA DNA — BUILDS IT RIGHT THE FIRST TIME",
+    "subheadline": "6 years of audit precision now engineering high-quality React applications.",
+    "body": [
+      "Most developers write code that works. Devanshu writes code that survives.",
+      "With 6 years of experience in high-stakes quality auditing, Devanshu brings a rare edge: the ability to predict, prevent, and eliminate failure points before they reach users.",
+      "Now specializing in React.js and modern frontend architecture, he builds scalable, responsive, and production-ready interfaces with a strong focus on performance, maintainability, and user experience."
+    ]
+  },
+  "career_story": {
+    "title": "The Unfair Advantage",
+    "subtitle": "Built on 6 years of breaking systems before building them.",
+    "content": "Before writing a single line of frontend code, Devanshu spent years identifying where systems fail—data mismatches, edge cases, and process breakdowns. That experience now translates into a powerful engineering mindset: anticipating bugs before they happen. Today, every component and interaction is built with precision and reliability.",
+    "image": "/images/profile.jpg",
+    "image_caption": "Devanshu Mishra — Frontend Developer with QA Precision"
+  },
+  "skills": [
+    {
+      "category": "Core Frontend Engineering",
+      "items": [
+        "React.js",
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3",
+        "DOM Manipulation"
+      ]
+    },
+    {
+      "category": "UI Systems & Styling",
+      "items": [
+        "Tailwind CSS",
+        "Responsive Design",
+        "Cross-Browser Optimization"
+      ]
+    },
+    {
+      "category": "State & Architecture",
+      "items": [
+        "React Hooks",
+        "useState",
+        "useEffect",
+        "Component Design Patterns"
+      ]
+    },
+    {
+      "category": "Data Handling",
+      "items": ["REST APIs", "Axios", "Async Programming", "JSON Handling"]
+    },
+    {
+      "category": "Developer Toolkit",
+      "items": ["Git", "GitHub", "VS Code", "npm", "Chrome DevTools"]
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-1",
+      "role": "Frontend Developer",
+      "company": "iSpark IT Services Pvt. Ltd.",
+      "period": "Jan 2025 – Present",
+      "achievements": [
+        "Built and deployed responsive, production-grade interfaces using React.js and Tailwind CSS.",
+        "Designed reusable component architecture, reducing development redundancy and improving scalability.",
+        "Integrated REST APIs with Axios, enabling real-time, dynamic UI updates.",
+        "Collaborated with design teams to deliver pixel-perfect UI implementations.",
+        "Improved application performance and user experience through clean code and optimization techniques."
+      ],
+      "impact": "Delivered faster, more reliable UI systems with improved maintainability and performance."
+    },
+    {
+      "id": "exp-2",
+      "role": "Quality Auditor",
+      "company": "EXL Services",
+      "period": "2018 – 2024",
+      "achievements": [
+        "Audited high-volume financial and insurance data with strict compliance standards.",
+        "Maintained high accuracy rates while processing large datasets.",
+        "Identified recurring error patterns and helped improve operational processes.",
+        "Generated reports and insights using Excel to optimize workflows."
+      ],
+      "impact": "Built a deep foundation in accuracy, compliance, and failure detection—now applied to frontend engineering."
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "TodoWala — High-Performance Task Engine",
+      "type": "Flagship Project",
+      "description": "A real-time, feature-rich task management system designed for speed, usability, and zero-friction interaction.",
+      "tech": ["React", "Tailwind CSS", "LocalStorage"],
+      "link": "https://todo-wala.vercel.app/",
+      "live": "false",
+      "read_time": "2 min read",
+      "screenshot": "/images/todowala.png",
+      "screenshot_caption": "Drag-and-drop task manager with dark mode and real-time updates",
+      "highlights": [
+        "Real-time countdown timers with dynamic updates",
+        "Drag-and-drop task prioritization",
+        "Dark mode with high-contrast UI",
+        "Custom LocalStorage hook for persistent state"
+      ],
+      "narrative": {
+        "problem": "Most task managers are slow, overloaded, and disrupt user flow.",
+        "analysis": "Focused on eliminating latency and ensuring instant UI feedback using a local-first approach.",
+        "solution": "Engineered a high-performance React application with near-instant interactions and persistent state."
+      },
+      "impact": "Created a fast, reliable productivity tool that maintains user flow without performance bottlenecks."
+    },
+    {
+      "id": "proj-2",
+      "title": "Chef Claude — AI Recipe Generator",
+      "type": "AI-Powered Application",
+      "description": "An intelligent recipe generator that suggests personalized dishes based on available ingredients using AI.",
+      "tech": ["React", "Tailwind CSS", "OpenAI API"],
+      "link": "https://ai-recipe-generator-lilac.vercel.app/",
+      "github": "https://github.com/Devanshu2202/Ai-Recipe-generator",
+      "live": true,
+      "read_time": "2 min read",
+      "screenshot": "/images/chef-claude.png",
+      "screenshot_caption": "AI-generated recipe based on user-selected ingredients",
+
+      "highlights": [
+        "Dynamic ingredient input system",
+        "AI-generated recipes based on user input",
+        "Conditional logic (minimum ingredient requirement)",
+        "Clean UI with real-time interaction",
+        "Reusable component-based architecture"
+      ],
+
+      "narrative": {
+        "problem": "Users often struggle to decide what to cook with limited ingredients available at home.",
+        "analysis": "Identified the need for a smart system that can interpret user input and generate useful, contextual outputs using AI.",
+        "solution": "Built a React-based interface where users input ingredients, and upon reaching a minimum threshold, an AI API generates a structured recipe including preparation steps and ingredients."
+      },
+
+      "impact": "Demonstrated practical AI integration in frontend applications, improving user decision-making and showcasing real-world problem solving."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Devanshu has a rare ability to identify potential issues before they reach production. A strong asset for any frontend team.",
+      "author": "Senior Engineering Manager",
+      "role": "iSpark IT Services"
+    },
+    {
+      "quote": "His QA background reflects in the quality of his code—clean, reliable, and built with real-world edge cases in mind.",
+      "author": "Lead Developer",
+      "role": "Frontend Team"
+    }
+  ],
+  "contact": {
+    "phone": "+918865834916",
+    "email": "devmishra2202@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/devanshu-mishra-b84162378/",
+    "github": "github.com/Devanshu2202",
+    "call_to_action": "If you're building products that need to work flawlessly at scale, we should talk."
+  },
+  "ticker": [
+    "BREAKING: Developer with QA mindset reduces production bugs",
+    "MARKET: Clean frontend architecture in high demand",
+    "TECH: React + performance optimization driving modern apps",
+    "INSIGHT: Reliability is the new competitive advantage"
+  ]
+}
