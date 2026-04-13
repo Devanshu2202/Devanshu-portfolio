@@ -150,6 +150,32 @@
       },
 
       "impact": "Demonstrated practical AI integration in frontend applications, improving user decision-making and showcasing real-world problem solving."
+    },
+    {
+      "id": "proj-3",
+      "title": "Tenzies — Fast-Paced Dice Game",
+      "type": "Interactive Web Game",
+      "description": "An interactive React dice game where players roll and hold dice to match all ten numbers.",
+      "tech": ["React", "Tailwind CSS", "Vite"],
+      "link": "https://tenzies-eight-pi.vercel.app/",
+      "github": "https://github.com/Devanshu2202/Tenzies",
+      "live": true,
+      "read_time": "2 min read",
+      "screenshot": "/images/tenzies.png",
+      "screenshot_caption": "Winning state with held dice and confetti celebration",
+      "highlights": [
+        "Complex state management for 10 independent dice",
+        "Derived state pattern for efficient win detection",
+        "Interactive hold/release toggle functionality",
+        "Responsive confetti celebration using custom hooks",
+        "Modern styling with Tailwind CSS"
+      ],
+      "narrative": {
+        "problem": "Managing multiple independent state toggles (dice) while constantly evaluating a global win condition can easily lead to messy code and unnecessary re-renders.",
+        "analysis": "Identified that relying on 'useEffect' to sync dice values with the win condition introduces bugs. A cleaner approach involves deriving the win state directly from the render cycle.",
+        "solution": "Built a scalable React architecture where an array of die objects tracks individual 'isHeld' and 'value' properties. Win detection is calculated on-the-fly using array '.every()' methods, triggering a responsive confetti animation upon success."
+      },
+      "impact": "Demonstrated a strong understanding of core React principles, specifically lifting state, avoiding redundant side effects, and creating a polished, engaging user interface."
     }
   ],
   "testimonials": [
